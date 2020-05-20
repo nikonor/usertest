@@ -21,7 +21,7 @@ func TestNew(t *testing.T) {
 				name:   "Иван",
 				bdyear: 1999,
 			},
-			want: &Usr{
+			want: &usr{
 				Name:   "Иван",
 				BDYear: 1999,
 			},
